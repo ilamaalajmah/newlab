@@ -1,0 +1,12 @@
+.btnc{
+    display: none;
+}
+.btnc:checked + .button::before {
+    content: "hello world!";
+}
+.button {
+    padding: 10px;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 300;
+}
